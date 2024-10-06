@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body,
+  #__nuxt {
+    @apply bg-slate-200 text-slate-700 min-h-[100dvh] flex flex-1 overflow-hidden;
+  }
+}
